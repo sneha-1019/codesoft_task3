@@ -3,303 +3,310 @@
 
 /* Global Styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Header Section */
 #header {
-  background: linear-gradient(45deg, #3b82f6, #6366f1);
-  color: #fff;
-  padding: 20px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    background: url('https://cpmfiles1.com/uopc-epc.org/greenish.jpg') no-repeat center center/cover;
 
+    /* background: linear-gradient(45deg, #3b82f6, #6366f1); */
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#header::after {
+    background: rgba(0, 0, 0, 0.5);
+}
 #header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header .logo {
-  font-size: 1.5em;
-  font-weight: bold;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 #header nav ul li a {
-  padding: 5px 15px;
-  transition: background 0.3s, color 0.3s;
+    padding: 5px 15px;
+    transition: background 0.3s, color 0.3s;
 }
 
 #header nav ul li a:hover {
-  background: #fff;
-  color: #3b82f6;
-  border-radius: 5px;
+    background: #fff;
+    color: #3b82f6;
+    border-radius: 5px;
 }
 
 /* Hero Section */
 #hero {
-  background: url('hero-background.jpg') no-repeat center center/cover;
-  color: #fff;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding: 0 20px;
-  position: relative;
+    background: url('https://static.vecteezy.com/system/resources/previews/006/240/302/non_2x/abstract-soft-focus-sunset-field-landscape-of-yellow-flowers-and-grass-meadow-warm-golden-hour-sunset-sunrise-time-tranquil-spring-summer-nature-closeup-and-blurred-forest-background-idyllic-nature-photo.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
 }
 
 #hero::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 #hero .container {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 #hero h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #hero p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 #hero .btn {
-  background: #3b82f6;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1em;
-  transition: background 0.3s;
+    background: #3b82f6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s;
 }
 
 #hero .btn:hover {
-  background: #6366f1;
+    background: #6366f1;
 }
 
 /* About Section */
 #about {
-  padding: 60px 0;
-  background: #fff;
-  text-align: center;
-  color: #333;
+    padding: 60px 0;
+    background: url('https://secureonlinereputation.com/wp-content/uploads/2020/05/SERVICES-BACKGROUND.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #333;
 }
 
 #about h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  color: #3b82f6;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3b82f6;
 }
 
 #about p {
-  font-size: 1.2em;
-  max-width: 800px;
-  margin: 0 auto;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* Services Section */
 #services {
-  padding: 60px 0;
-  text-align: center;
-  background: linear-gradient(45deg, #6366f1, #3b82f6);
-  color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    background: url('https://secureonlinereputation.com/wp-content/uploads/2020/05/SERVICES-BACKGROUND.jpg') no-repeat center center/cover;
+    color: #fff;
 }
 
 #services h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 .service {
-  background: #fff;
-  color: #333;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .service:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .service h3 {
-  font-size: 1.8em;
-  margin-bottom: 10px;
-  color: #3b82f6;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #3b82f6;
 }
 
 .service p {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 /* Portfolio Section */
 #portfolio {
-  padding: 60px 0;
-  background: #fff;
-  text-align: center;
+    padding: 60px 0;
+    background: url('https://secureonlinereputation.com/wp-content/uploads/2020/05/SERVICES-BACKGROUND.jpg') no-repeat center center/cover;
+    text-align: center;
 }
 
 #portfolio h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  color: #3b82f6;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3b82f6;
 }
 
 .portfolio-item {
-  margin: 20px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .portfolio-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .portfolio-item h3 {
-  font-size: 1.8em;
-  margin: 10px 0;
-  color: #3b82f6;
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: #3b82f6;
 }
 
 .portfolio-item p {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 /* Contact Section */
 #contact {
-  padding: 60px 0;
-  text-align: center;
-  background: linear-gradient(45deg, #3b82f6, #6366f1);
-  color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    background: url('https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg') no-repeat center center/cover;
+    color: #fff;
 }
 
 #contact h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 #contact form {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 #contact .form-group {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #contact .form-group label {
-  display: block;
-  font-size: 1em;
-  margin-bottom: 5px;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
 }
 
 #contact .form-group input,
 #contact .form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 #contact .form-group textarea {
-  height: 150px;
+    height: 150px;
 }
 
 #contact .btn {
-  background: #fff;
-  color: #3b82f6;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1em;
-  transition: background 0.3s, color 0.3s;
+    background: #fff;
+    color: #3b82f6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s, color 0.3s;
 }
 
 #contact .btn:hover {
-  background: #3b82f6;
-  color: #fff;
+    background: #3b82f6;
+    color: #fff;
 }
 
 /* Footer Section */
 footer {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
 footer p {
-  margin: 0;
+    margin: 0;
 }
 
 footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 footer ul li {
-  display: inline;
+    display: inline;
 }
 
 footer ul li a {
-  color: #fff;
+    color: #fff;
 }
 
 footer ul li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
